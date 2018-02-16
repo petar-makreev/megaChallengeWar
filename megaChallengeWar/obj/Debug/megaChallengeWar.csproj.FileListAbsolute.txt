@@ -1,0 +1,11 @@
+c:\users\tyler blackman\source\repos\megaChallengeWar\megaChallengeWar\bin\megaChallengeWar.dll.config
+c:\users\tyler blackman\source\repos\megaChallengeWar\megaChallengeWar\bin\megaChallengeWar.dll
+c:\users\tyler blackman\source\repos\megaChallengeWar\megaChallengeWar\bin\megaChallengeWar.pdb
+c:\users\tyler blackman\source\repos\megaChallengeWar\megaChallengeWar\bin\Cards.dll
+c:\users\tyler blackman\source\repos\megaChallengeWar\megaChallengeWar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\tyler blackman\source\repos\megaChallengeWar\megaChallengeWar\bin\Cards.pdb
+c:\users\tyler blackman\source\repos\megaChallengeWar\megaChallengeWar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\tyler blackman\source\repos\megaChallengeWar\megaChallengeWar\obj\Debug\megaChallengeWar.csprojResolveAssemblyReference.cache
+c:\users\tyler blackman\source\repos\megaChallengeWar\megaChallengeWar\obj\Debug\megaChallengeWar.csproj.CoreCompileInputs.cache
+c:\users\tyler blackman\source\repos\megaChallengeWar\megaChallengeWar\obj\Debug\megaChallengeWar.dll
+c:\users\tyler blackman\source\repos\megaChallengeWar\megaChallengeWar\obj\Debug\megaChallengeWar.pdb
