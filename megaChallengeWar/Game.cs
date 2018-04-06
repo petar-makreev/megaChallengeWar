@@ -19,10 +19,14 @@ namespace megaChallengeWar
 
         public string Play()
         {
-            Deal deal = new Deal();
+            GameDeck deck = new GameDeck();
+            for (int i = 0; i < 3; i++)
+            {
+                deck.gameDeck.Shuffle();
+            }
 
             string result = "<h3>Dealing Cards ...</h3>";
-            result += deal.PerformDeal(_player1, _player2);
+            result += deck.Deal(_player1, _player2);
 
             result += "<h3>Begin battle ...</h3>";
             int round = 0;
@@ -44,8 +48,10 @@ namespace megaChallengeWar
             string result = "<strong>";
             if (_player1.Hand.Count > _player2.Hand.Count)
                 result += "<p /><br /> " + _player1.Name + " wins";
-            if (_player2.Hand.Count > _player1.Hand.Count)
+            else if (_player2.Hand.Count > _player1.Hand.Count)
                 result += "<p /><br /><span style='color:red;'>" + _player2.Name + " wins</span>";
+            else
+                result += "<br/><span style='color:green;font-weight:bolder;'>DRAW</span>";
 
             result += "<br />" + _player1.Name + ": " + _player1.Hand.Count + "<br /><span style='color:red;'>" + _player2.Name + ": " + _player2.Hand.Count + "</span></strong>";
             return result;
